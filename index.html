@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1" data-theme="e">
+            <div data-role="header">
+                <h1>Mobile Learning</h1>
+            </div>
+            <div data-role="content">
+                <h2>Selamat Datang</h2>
+                <h4>Di MobileLearning "Survey Moodle"</h4>
+                <img src="images/TellUsWhatYouThink.png" width="350"
+                style="display: block; margin: 0 auto" />
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-rel="dialog" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="dialog" id="page7" data-theme="e">
+            <div data-role="header">
+                <h1>Info</h1>
+            </div>
+            <div data-role="content">
+			
+                <img src="images/udin.jpg" width="200" height="200">
+				<h4>Nama : Muchammad Saifudin</h4>
+				<h4>Nim  : 1112038</h4>
+				<h4>Email : saifudingotest@gmail.com</h4>
+            </div>
+        </div>
+        <div data-role="page" id="page2" data-theme="e">
+            <div data-role="header">
+                <h1>Menu</h1>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#page3">Tutorial Membuat Survey</a>
+                    </li>
+                    <li>
+                        <a href="#page4">Cara Kerja Admin</a>
+                    </li>
+                    <li>
+                        <a href="#page5">Cara Kerja Siswa</a>
+                    </li>
+                    <li>
+                        <a href="#page8">Cara Kerja Guru</a>
+                    </li>
+                    <li>
+                        <a href="#page9">Tutorial Video</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-rel="dialog" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page3" data-theme="e">
+            <div data-role="header">
+                <h1>Tutorial Membuat Survey</h1>
+                <a data-role="button" data-rel="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h3>Cara Membuat</h3>
+                <h4>Tutorial ini digunakan untuk mendapatkan feedback dari mahasiswa atas materi yang
+                    telah diberikan pada minggu - minggu sebelumnya. Fitur ini sangat membantu untuk
+                    mengetahui kinerja mahasiswa dan melihat pemahaman komprehensif mahasiswa terhadap
+                    mata kuliah tertentu. Fitur ini juga dilengkapi dengan perhitungan hasil yang cepat
+                    dan instan.</h4>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-rel="dialog" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page4" data-theme="e">
+            <div data-role="header">
+                <h1>Cara Kerja Admin</h1>
+                <a data-role="button" data-rel="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h4>Langkah - langkah yang dilakukan oleh admin</h4>
+                <textarea placeholder="1. Admin harus log in terlebih dahulu, setelah admin log in, admin bisa memilih klik &quot;Turn on edting&quot; untuk membuat Survey pada Moodle."></textarea>
+                <img src="images/1.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="2. Kemudian setelah itu pilih Add an activity or resource. Untuk melanjutkan proses selanjutnya."></textarea>
+                <img src="images/2.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="3. Langkah selanjutnya pilih Survey, kemudian pilih add, agar dapat melanjutkan langkah selanjutnya."></textarea>
+                <img src="images/3.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="4. Setelah itu, langkah selanjutnya adalah isi nama materi untuk Survey, kemudian pilih Survey type, isi juga description dan yang terakhir checklist Display description on course page."></textarea>
+                <img src="images/4.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="5. Setelah semua terisi semua pilih save and display."></textarea>
+                <img src="images/5.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="6.   Kemudian admin diharuskan memilih jawaban yang tersedia, yang nantinya digunakan untuk memberikan contoh cara memilih jawaban."></textarea>
+                <img src="images/6.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="7. Setelah jawaban semua terisi, silahkan klik &quot;Clik here to continue&quot;. Untuk melanjutkan proses selanjutnya."></textarea>
+                <img src="images/7.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="8. Setelah itu klik &quot;continue&quot;, untuk melanjutkan proses selanjutnya."></textarea>
+                <img src="images/8.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="9. Tugas sebagai admin sudah selesai, kemudian log out akun."></textarea>
+                <img src="images/9.png" width="150" style="display: block; margin: 0 auto"
+                />
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-rel="dialog" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page5" data-theme="e">
+            <div data-role="header">
+                <h1>Cara Kerja Siswa</h1>
+                <a data-role="button" data-rel="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h4>Langkah - langkah yang dilakukan oleh siswa</h4>
+                <textarea placeholder="1. Langkah kerja awal pada siswa adalah, siswa harus log in terlebih dahulu, agar bisa melakukan langkah berikutnya."></textarea>
+                <img src="images/10.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="2. Setelah berhasil log in, kemudian pilih &quot;Fitur Moodle&quot; untuk melanjutkan langkah selanjutnya."></textarea>
+                <img src="images/11.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="3. Setelah memilih fitur moodle, kemudian pilih &quot;Belajar Survey&quot; yang telah dibuat oleh admin."></textarea>
+                <img src="images/12.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="4. Setelah itu siswa diharuskan memilih jawaban, yang sudah disediakan, pilih salah satu jawaban dengan checklist."></textarea>
+                <img src="images/13.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="5. Ketika semua soal sudah dijawab dengan cara menchecklist salah satu jawaban, kemudian pilih &quot;Click here to continue&quot;."></textarea>
+                <img src="images/14.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="6. Pilih continue untuk langkah selanjutnya, karena merupakan bagian dari akhir langkah kerja siswa, dan setelah itu siswa bisa log out."></textarea>
+                <img src="images/15.png" width="150" style="display: block; margin: 0 auto"
+                />
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-rel="dialog" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page6" data-theme="e">
+            <div data-role="header">
+                <h1>Latihan</h1>
+                <a data-role="button" data-rel="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h3>Quiz :</h3>
+                <span>Text</span>
+                <h4>1. Manakah yang tidak termasuk bagian Rancang Dinding?</h4>
+                <fieldset data-role="controlgroup">
+                    <legend></legend>
+                    <input type="radio" id="radio1" name="radio1" />
+                    <label for="radio1">Keragaman Kedudukan Gatra</label>
+                    <input type="radio" id="radio2" name="radio1" />
+                    <label for="radio2">Bidang Papar</label>
+                    <input type="radio" id="radio3" name="radio1" />
+                    <label for="radio3">Garis Hubung</label>
+                </fieldset>
+                <h4>2. Roncetan ukuran gatra dapat diperoleh dengan cara apa?</h4>
+                <fieldset data-role="controlgroup">
+                    <legend></legend>
+                    <input type="radio" id="radio4" name="radio4" />
+                    <label for="radio4">Mengubah Lintangnya</label>
+                    <input type="radio" id="radio5" name="radio4" />
+                    <label for="radio5">Menambah Bidang</label>
+                    <input type="radio" id="radio6" name="radio4" />
+                    <label for="radio6">Menentukan Sudut</label>
+                </fieldset>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-rel="dialog" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page8" data-theme="e">
+            <div data-role="header">
+                <h1>Cara Kerja Guru</h1>
+                <a data-role="button" data-rel="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h4>Langkag - langkah yang dilakukan oleh guru</h4>
+                <textarea placeholder="1. Langkah awal dari admin adalah, admin harus melakukan log in terlebih dahulu, setelah itu baru admin bisa memilih menu dari fitur moodle."></textarea>
+                <img src="images/17.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="2. Setelah memilih fitur moodle, kemudian pilih menu &quot;Belajar Survey&quot;. Untuk langkah selanjutnya."></textarea>
+                <img src="images/18.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="3. Setelah guru memilih menu &quot;Belajar Survey&quot;, disitu guru akan mengetahui pemberitahuan &quot;View 1 survey respons&quot; yang menunjukkan bahwa ada satu siswa yang telah mengisi soal yang berupa kuisioner. Kemudian klik &quot;View 1 survey respons&quot;, untuk mengetahui hasilnya."></textarea>
+                <img src="images/19.png" width="150" style="display: block; margin: 0 auto"
+                />
+                <textarea placeholder="4. Setelah memilih &quot;View 1 survey respons&quot; guru akan mengetahui hasil dari kuisioner berupa grafik, dan merupakan langkah yang terakhir, setelah itu log out admin."></textarea>
+                <img src="images/20.png" width="150" style="display: block; margin: 0 auto"
+                />
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-rel="dialog" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page9" data-theme="e">
+            <div data-role="header">
+                <h1>Tutorial Video</h1>
+                <a data-role="button" data-rel="back">Back</a>
+            </div>
+            <div data-role="content">
+			<iframe width="425" height="350" src="//www.youtube.com/embed/KwRpQdRhkE8" frameborder="0"></iframe></div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-rel="dialog" data-icon="info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
